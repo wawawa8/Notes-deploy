@@ -1,0 +1,24 @@
+---
+{"dg-publish":true,"permalink":"/Project Notes/Watertight manifold mesh reconstruction with inverse rendering/"}
+---
+
+- 2024.1.3
+    - stage3
+        - given: stage2 output
+            - mesh
+            - appearance network
+                - albedo
+                - roughness
+            - light
+        - 1. load in mesh
+    		- load geometry network
+    		- transform to mesh
+    		- **first use gt mesh**
+    - stage2
+        - **first use gt mesh to train stage2**
+        - 
+    - problems
+        - hotdog-tensoir use which mesh?
+            - validate PSNR: 34.320 using DMTet and old version of training code
+            - 34.775 using DiffMC
+            - 
