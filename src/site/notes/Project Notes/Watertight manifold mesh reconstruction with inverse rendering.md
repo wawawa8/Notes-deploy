@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Project Notes/Watertight manifold mesh reconstruction with inverse rendering/"}
+{"dg-publish":true,"permalink":"/Project Notes/Watertight manifold mesh reconstruction with inverse rendering/","created":"2024-01-03T00:23:03.043+08:00"}
 ---
 
 - 2024.1.3
