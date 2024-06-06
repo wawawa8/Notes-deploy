@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Course Notes/Raytracing in one weekend/Notes/","created":"2024-01-20T13:48:38.611+08:00"}
+{"dg-publish":true,"permalink":"/Course Notes/Raytracing in one weekend/Notes/","created":"2024-02-26T00:02:01.713+08:00"}
 ---
 
 # coordinate system
