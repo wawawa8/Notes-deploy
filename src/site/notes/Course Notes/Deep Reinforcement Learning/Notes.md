@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Course Notes/Deep Reinforcement Learning/Notes/","created":"2024-04-01T20:10:58.475+08:00"}
+{"dg-publish":true,"permalink":"/Course Notes/Deep Reinforcement Learning/Notes/","created":"2024-04-01T08:10:58.475-04:00"}
 ---
 
 ### some definitions
