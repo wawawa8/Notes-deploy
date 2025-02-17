@@ -192,7 +192,7 @@ $$J_{avR}(\theta)=\sum_sd^{\pi_\theta}(s)\sum_a\pi_\theta(s,a)\mathcal{R}_s^a$$
 - unable to calculate gradient, because we cannot get gradient from the world or the reward
     - make the world differentiable
     - find another way to calculate gradient
-- $$
+$$
 \nabla_\theta\mathbb{E}_\tau[R(\tau)] = \mathbb{E}_\tau\left[R(\tau)\nabla_\theta\sum_{t=0}^{T-1}\log\pi(a_t\mid s_t,\theta)\right]
 $$
 1. sample a trajectory from $\pi_\theta$
@@ -210,7 +210,7 @@ $$
 ##### Off-policy PG
 - importance sampling
 - $E_p[f(x)] = E_q[f(x) \frac {p(x)} {q(x)}]$
--  $$\nabla _ {\theta'} J(\theta') = E_{\tau\sim p_\theta(\tau)}{\left[\sum_{t=1}^T\nabla_{\theta^{\prime}}\log\pi_{\theta^{\prime}}(\mathbf{a}_t\mid\mathbf{s}_t){\left(\prod_{t^{\prime}=1}^t\frac{\pi_{\theta^{\prime}}(\mathbf{a}_{t^{\prime}}\mid\mathbf{s}_{t^{\prime}})}{\pi_\theta(\mathbf{a}_{t^{\prime}}\mid\mathbf{s}_{t^{\prime}})}\right)}{\left(\sum_{t^{\prime}=t}^Tr(\mathbf{s}_{t^{\prime}},\mathbf{a}_{t^{\prime}})\right)}\right]}$$
+$$\nabla _ {\theta'} J(\theta') = E_{\tau\sim p_\theta(\tau)}{\left[\sum_{t=1}^T\nabla_{\theta^{\prime}}\log\pi_{\theta^{\prime}}(\mathbf{a}_t\mid\mathbf{s}_t){\left(\prod_{t^{\prime}=1}^t\frac{\pi_{\theta^{\prime}}(\mathbf{a}_{t^{\prime}}\mid\mathbf{s}_{t^{\prime}})}{\pi_\theta(\mathbf{a}_{t^{\prime}}\mid\mathbf{s}_{t^{\prime}})}\right)}{\left(\sum_{t^{\prime}=t}^Tr(\mathbf{s}_{t^{\prime}},\mathbf{a}_{t^{\prime}})\right)}\right]}$$
 ### Actor-Critic
 - Bias set to Value $V (s)$
 - Use TD to update value (together train policy & value)
